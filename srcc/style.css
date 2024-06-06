@@ -47,6 +47,12 @@ form {
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(255, 233, 233, 0.8);
     font-family: "Gaegu", sans-serif;
+    transition: 300ms ease-in-out;
+}
+
+.instructions:hover {
+    background-color: #ffe3e2;
+    box-shadow: 11px 1px 27px 28px rgba(255, 227, 226, 0.7);
 }
 
 .poem {
@@ -57,6 +63,8 @@ form {
     padding: 20px;
     line-height: 24px;
     border-left: 3px solid #b18597;
+    text-shadow: 5px 5px 10px rgba(141, 104, 102, 0.8);
+    border-radius: 10px;
 }
 
 footer {
