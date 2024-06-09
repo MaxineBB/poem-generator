@@ -13,11 +13,7 @@
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Cozy AI Poem Generator</title>
   </head>
   <body>
@@ -2515,7 +2511,7 @@
         </div>
         <div class="ai-text">
           <main>
-            <form action="">
+            <form id="poem-generator-form">
               <input
                 type="text"
                 placeholder="enter a topic of a poem"
@@ -2527,18 +2523,14 @@
 
               <button class="button-10">search</button>
             </form>
-            <div class="poem">
-              roses are red<br />
-              violets are blue<br />
-              i love you
-            </div>
+            <div id="poem"></div>
           </main>
 
           <footer>
             this AI project was coded by
             <a href="https://github.com/MaxineBB" target="_blank"
               >Maxine Balle</a
-            >, is <br />
+            >,<br />
             <a
               href="https://github.com/MaxineBB/poem-generator"
               target="_blank"

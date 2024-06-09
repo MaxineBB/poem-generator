@@ -55,7 +55,12 @@ form {
     box-shadow: 11px 1px 27px 28px rgba(255, 227, 226, 0.7);
 }
 
-.poem {
+.instructions:focus {
+    outline: 2px solid #ffe3e2;
+    box-shadow: 11px 1px 27px 28px rgba(255, 227, 226, 0.7);
+}
+
+#poem {
     margin-top: 10px;
     font-size: 18px;
     background-color: whitesmoke;
