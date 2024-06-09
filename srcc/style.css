@@ -63,8 +63,8 @@ form {
 #poem {
     margin-top: 10px;
     font-size: 18px;
-    background-color: whitesmoke;
     background-size: cover;
+    background-color: white;
     padding: 20px;
     line-height: 24px;
     border-left: 3px solid #b18597;
