@@ -2512,27 +2512,30 @@
         </div>
         <div class="ai-text">
           <main>
-            <form id="poem-generator-form">
-              <input
-                type="text"
-                placeholder="enter a topic of a poem"
-                autofocus
-                required
-                autocomplete="off"
-                class="instructions"
-                id="user-instructions"
-              />
+            <div class="form-wrapper">
+              <form id="poem-generator-form">
+                <input
+                  type="text"
+                  placeholder="enter a topic of a poem"
+                  autofocus
+                  required
+                  autocomplete="off"
+                  class="instructions"
+                  id="user-instructions"
+                />
 
-              <button class="button-10">search</button>
-            </form>
-            <div id="poem"></div>
+                <button class="button-10">search</button>
+              </form>
+              <div class="hint">i.e: jelly, cats, flowers... 🤍</div>
+            </div>
+            <div id="poem" class="poem hidden"></div>
           </main>
 
           <footer>
             this AI project was coded by
             <a href="https://github.com/MaxineBB" target="_blank"
               >Maxine Balle</a
-            >,<br />
+            >, <br />
             <a
               href="https://github.com/MaxineBB/poem-generator"
               target="_blank"

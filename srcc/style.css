@@ -30,14 +30,23 @@ font-size: 36px;
 line-height: 1.5;
 }
 
-
-form {
+.form-wrapper {
     padding: 30px;
     background-color: white;
-    display: flex;  
     border-radius: 10px;
+
 }
 
+form {
+    display: flex;  
+}
+
+.hint {
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
 .instructions {
     margin-right: 10px;
     padding: 13px;
@@ -70,6 +79,10 @@ form {
     border-left: 3px solid #b18597;
     text-shadow: 5px 5px 10px rgba(141, 104, 102, 0.8);
     border-radius: 10px;
+}
+
+.hidden {
+    display: none;
 }
 
 footer {
@@ -139,4 +152,20 @@ button.button-10:active {
 button.button-10:active::before {
     box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
     transform: translate3d(0, 0, -1em);
+}
+
+.blink {
+    animation: blink-animation 1s steps(5s, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+            visibility: hidden;
+        }
 }
